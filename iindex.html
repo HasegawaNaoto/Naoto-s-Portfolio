@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Naoto's Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-logo"><h1>Naoto's Portfolio</h1></div>
+    <ul class="header-menu-container">
+      <li class="menu"><a class="menu-btn" href="#about-id">ABOUT</a></li>
+      <li class="menu"><a class="menu-btn" href="#skill-id">SKILL</a></li>
+      <li class="menu"><a class="menu-btn" href="#works-id">WORKS</a></li>
+      <li class="menu"><a class="menu-btn" href="#contact-id">CONTACT</a></li>
+    </ul>
+  </header>
+
+  <div class="header-image-container-2"><img src="img/header2.jpg">
+    <div class="header-image-container-1"><img src="img/header1.jpg"></div>
+  </div>
+
+  <div id="about-id" class="about">
+    <h2>ABOUT</h2>
+    <img class="image" src="img/own.png">
+    <h3>長谷川 直人</h3>
+    <div class="introduction"><h4>経歴</h4>
+      <ul class="history-list-container">
+        <li class="history">2014年<br>芝浦工業大学工学部通信工学科に入学。<br>入学後は、情報通信工学をハードウェアとソフトウェアの両面から学び、特にマイクロ波や電波の分野に強い興味を抱く。</li>
+        <li class="history">2016年<br>マイクロ波回路の研究室に配属され、大学3年の後期からマイクロ波回路の設計理論やシミュレーションツールの使用方法など研究に必要な知識を学ぶ。</li>
+        <li class="history">2017年<br>大学4年時にCRLH線路スタブを用いた逆F級小型マイクロ波増幅器を提案し、設計、評価までの全ての行程を遂行し、その有用性を示す。</li>
+        <li class="history">2018年<br>大学卒業後、研究で得た技術や知見を活かしたいと考え、高周波増幅器の設計開発を専門とする会社に入社。<br>入社後は、高効率マイクロ波増幅器の測定・評価、バックシミュレーション、測定の自動化プログラムの作成や技術文書作成などの業務を遂行する。<br>この経験を通じて、マイクロ波増幅器への興味からプログラミングに興味を抱くようになり、プログラミングで社会貢献したいと考えるようになる。</li>
+        <li class="history">2019年<br>会社を退職後、WEBプログラミングを独学し同年2月に"音楽好きが集まるSNSアプリ"をコンセプトに<a href="https://www.oto-mura.com" class="otomura-link">"OTOMURA"</a>を開発。</li>
+      </div>
+    </div>
+
+    <div id="skill-id" class="skill"><h2>Skill</h2>
+      <div class="skill-container">
+        <div class="chart-container">
+          <canvas id="doughnut-chart" height="452" width="604" style="width: 302px; height: 226px;"></canvas>
+        </div>
+
+        <div class="chart-legend-container">
+          <ul class="chart-list-container">
+            <li class="legend ruby">Ruby on Rails</li>
+            <li class="legend mysql">MySQL</li>
+            <li class="legend htmlcss">HTML&CSS</li>
+            <li class="legend javascript">Javascript</li>
+            <li class="legend commandline">Command Line</li>
+            <li class="legend github">GitHub</li>
+            <li class="legend aws">AWS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="works-id" class="works"><h2>Works</h2>
+      <div class="works-image-container">
+        <a class="sm-image-container" href="https://www.oto-mura.com">
+          <img src="img/sm.png">
+        </a>
+        <h3>音楽好きが集まるSNS<br>"OTOMURA"</h3>
+      </div>
+
+      <div class="about-application-movie"><video style="cursor:pointer; outline:none; margin:0 auto; display:block;" width="100%" height="100%" poster="img/samnail.png" src="movie/app-introduction.mp4" controls></video>
+        <h3>機能紹介動画</h3>
+
+        <div class="about-function">
+          <h4>仕様</h4>
+          使用言語: Ruby on Rails、Javascript<br>レイアウト:HTML&CSS<br>データベース: MySQL<br>サーバー: AmazonEC2<br>GitHub: <a class="github-link" href="https://github.com/HasegawaNaoto/otomura_app">https://github.com/HasegawaNaoto/otomura_app</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact"><h2>Contact</h2>
+      <div class="contact-body">
+        <p>お問合わせは下記のメールアドレス、またはSNSからご連絡をください。</p><br>
+        <a class="email" href="mailto:nh.6194work@gmail.com">nh.6194work@gmail.com</a>
+        <a class="twitter-icon" href="https://twitter.com/Naoto10116582"><i class="fab fa-twitter-square"></i></a>
+      </div>
+    </div>
+
+    <footer>
+      <h3>Naoto's Portfolio</h3>
+      <div>Copyright(C) Naoto's Portfolio. All Rights Researved!</div>
+    </footer>
+</body>
+</html>
