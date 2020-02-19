@@ -58,5 +58,5 @@ $(function(){
     window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {
       responsive : true
     });
-  }
+  };
 });
