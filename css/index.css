@@ -114,8 +114,10 @@ a{
   .menu a:hover{
     color:rgba(148,148,148,0.8);
   }
+}
 
-  .header-image-container-1{
+@media(max-width:411px){
+    .header-image-container-1{
     width:100%;
     max-width:initial;
     left:0;
