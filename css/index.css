@@ -332,8 +332,13 @@ li.aws:before {
 .sm-image-container img:hover{
   opacity:0.8;
 }
-}
 
+.about-application-movie{
+  float:left;
+  width:50%;
+  height:50%;
+  padding:20px;
+}
 
 .about-function{
   border:solid 1px black;
