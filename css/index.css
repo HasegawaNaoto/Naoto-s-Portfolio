@@ -289,6 +289,14 @@ li.aws:before {
   background:rgba(162,96,191,1);
 }
 
+li.php:before {
+  background:blue;
+}
+
+li.python:before {
+  background:teal;
+}
+
 /* skill */
 
 
