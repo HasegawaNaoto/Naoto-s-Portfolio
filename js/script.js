@@ -51,6 +51,18 @@ $(function(){
       color: "rgba(162,96,191,1)",
       highlight: "rgba(162,96,191,0.8)",
       label: "AWS"
+    },
+        {
+      value: 10,
+      color: "rgba(0,0,255,1)",
+      highlight: "rgba(0,0,255,0.8)",
+      label: "PHP"
+    },
+        {
+      value: 10,
+      color: "rgba(0,0,128,1)",
+      highlight: "rgba(0,0,128,0.8)",
+      label: "Python"
     }
   ];
   window.onload = function(){
